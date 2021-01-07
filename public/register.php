@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
         $query .= ")";
         $results = mysqli_query($connection, $query);
         $message =  ' <p style="color:blue">Вы успешно зарегестрированы</p>';
-        header("Location: index.php");
+        
         
         
     }    
